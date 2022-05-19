@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{
+    --cor-fundo: #424549;
+    --cor-titulo: #7289da;
+    --cor-paragrafo: #1e2124;
+    --fonte-paragrafo: Josefin Sans;
+    --cor-link: #1e2124;
+    --fonte: Josefin Sans, Verdana;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--cor-titulo);
+}
+
+h3 {
+    color: var(--cor-titulo);
+}
+
+p {
+    color: var(--cor-paragrafo);
+    font-family: var(--fonte-paragrafo);
+}
+
+img {
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: #7289da;
+    border-style: groove;
+}
+
+div.imagem {
+    text-align: center;
+}
+
+ul li a{
+    color: var(--cor-link);
+    font-size: 25px;
+}
+
+a {
+    color: var(--cor-link);
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
